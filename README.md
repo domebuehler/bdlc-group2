@@ -33,5 +33,7 @@ spark.executor.cores 4
 
 [SPARK](http://bdlc-01.labservices.ch:8080/)
 
-[SPARK HISTORYSERVER](http://bdlc-01.labservices.ch:18080/) 
+[SPARK HISTORYSERVER](http://bdlc-01.labservices.ch:18080/)
+
+[JUPYTERLAB](http://bdlc-01.labservices.ch:8888/lab) with password `123456*`
 
