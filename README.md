@@ -16,3 +16,7 @@
 - bdlc-05.labservices.ch
 - bdlc-08.labservices.ch
 - bdlc-09.labservices.ch
+
+## Links
+
+[MASTER HDFS](http://bdlc-01.labservices.ch:9870/dfshealth.html#tab-overview)
