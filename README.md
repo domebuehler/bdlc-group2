@@ -1,4 +1,4 @@
-# bdlc-group2
+# {project title} Group 2
 
 ## Nodes
 
