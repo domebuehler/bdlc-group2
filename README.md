@@ -30,5 +30,8 @@ spark.executor.cores 4
 ## Services
 
 [HDFS](http://bdlc-01.labservices.ch:9870/dfshealth.html#tab-overview)
+
 [SPARK](http://bdlc-01.labservices.ch:8080/)
+
 [SPARK HISTORYSERVER](http://bdlc-01.labservices.ch:18080/) 
+
