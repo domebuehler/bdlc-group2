@@ -2,32 +2,27 @@
 
 ## Nodes
 
-**Master**
+| Machine                 | Role    |
+| ----------------------- | ------- |
+| bdlc-01.labservices.ch  | Master  |
+| bdlc-08.labservices.ch  | Secondary Name Node / Worker  |
+| bdlc-04.labservices.ch  | Worker  |
+| bdlc-05.labservices.ch  | Worker  |
+| bdlc-09.labservices.ch  | Worker  |
 
-- bdlc-01.labservices.ch
+## Resources
 
-**Secondary Namenode**
+### Distribution of resources
 
-- bdlc-08.labservices.ch
+![Resources](diagrams/resources.jpg)
 
-**Workers**
+### Total resources
 
-- bdlc-04.labservices.ch
-- bdlc-05.labservices.ch
-- bdlc-08.labservices.ch
-- bdlc-09.labservices.ch
+- 16 Spark Executors
+- 64 Cores
+- 60 GB RAM
 
-## Spark
-
-### Config
-- 4 workers with each 4 executors = 16 executors
-```
-spark.executor.memory 15g
-spark.executor.instances 16
-spark.executor.cores 4
-```
-
-## Services
+## Webservices
 
 [HDFS](http://bdlc-01.labservices.ch:9870/dfshealth.html#tab-overview)
 
