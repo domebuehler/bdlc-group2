@@ -15,13 +15,12 @@ urls=(
 )
 
 download_url() {
-    wget "$url"
+    wget --content-dispositionb "$url"
 }
 
 for url in "${urls[@]}"; do
     download_url "$url" &
 done
 
-wait
-
 find . -name '*wget-log*' -delete
+wait
