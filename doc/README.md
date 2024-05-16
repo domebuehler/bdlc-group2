@@ -32,3 +32,13 @@
 
 [JUPYTERLAB](http://bdlc-01.labservices.ch:8888/lab) with password `123456*`
 
+## Dataset
+
+[Parking Violations in NYC](https://www.kaggle.com/datasets/new-york-city/nyc-parking-tickets/data)
+
+## Possible Questions
+
+- In which season are parking violations most likely?
+- At what time of the day is it most likely to get a ticket?
+- Which body type / make of vehicle is most likely to be fined?
+- On which street are the most violations recorded?
