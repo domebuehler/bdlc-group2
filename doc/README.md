@@ -39,6 +39,11 @@
 ## Possible Questions
 
 - In which season are parking violations most likely?
-- At what time of the day is it most likely to get a ticket?
-- Which body type / make of vehicle is most likely to be fined?
 - On which street are the most violations recorded?
+- Which body type / make of vehicle is most likely to be fined?
+
+## Definite Questions
+
+- Whats the most amount that was paid in violations and by which Plate ID?
+- At what hour of the day is it most likely to get a ticket?
+- Which percentage of the total violation "income" has been provided by the top 10% (top 10% amount of tickets)?
