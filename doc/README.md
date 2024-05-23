@@ -10,6 +10,14 @@
 | bdlc-05.labservices.ch  | Worker  |
 | bdlc-09.labservices.ch  | Worker  |
 
+## Tech Stack
+
+We use the following technologies:
+- HDFS to store all the data
+- Spark (with Pyspark) in standalone mode to proccess all the data
+- Jupyterlab for coding and code execution
+- Git with github for code versioning
+
 ## Resources
 
 ### Distribution of resources
