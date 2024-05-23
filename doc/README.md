@@ -1,4 +1,4 @@
-# {project title} Group 2
+# Group 2 - Analysis parking violations in NYC
 
 ## Nodes
 
@@ -34,7 +34,9 @@
 
 ## Dataset
 
-[Parking Violations in NYC](https://www.kaggle.com/datasets/new-york-city/nyc-parking-tickets/data)
+The data is separated across multiple datasets, each for one fiscal year. The datasets can be found here [NYC OpenData](https://opendata.cityofnewyork.us/).
+
+The parking violations for fiscal year 2024 can be found here [Dataset for fiscal year 2024](https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2024/pvqr-7yc4/about_data).
 
 ## Possible Questions
 
