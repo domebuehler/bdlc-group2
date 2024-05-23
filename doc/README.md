@@ -44,6 +44,6 @@
 
 ## Definite Questions
 
-- Whats the most amount that was paid in violations and by which Plate ID?
-- At what hour of the day is it most likely to get a ticket?
-- Which percentage of the total violation "income" has been provided by the top 10% (top 10% amount of tickets)?
+1. Whats the most amount that was paid in violations and by which Plate ID?
+2. At what hour of the day is it most likely to get a ticket?
+3. Which percentage of the total violation "income" has been provided by the top 10% (top 10% amount of tickets)?
