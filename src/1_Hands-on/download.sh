@@ -15,7 +15,7 @@ urls=(
 )
 
 download_url() {
-    wget --content-dispositionb "$url"
+    wget --content-disposition "$url"
 }
 
 for url in "${urls[@]}"; do
