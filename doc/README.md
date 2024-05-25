@@ -1,5 +1,7 @@
 # Group 2 - Analysis parking violations in NYC
 
+This file provides a short overview of the project work for group 2. All code and other documentation can be found directly in the Jupyter Notebooks.
+
 ## Nodes
 
 | Machine                 | Role    |
@@ -16,7 +18,7 @@ We use the following technologies:
 - HDFS to store all the data
 - Spark (with Pyspark) in standalone mode to proccess all the data
 - Jupyterlab for coding and code execution
-- Git with github for code versioning
+- Git with github for code versioning and collaboration
 
 ## Resources
 
@@ -42,17 +44,19 @@ We use the following technologies:
 
 ## Dataset
 
-The data is separated across multiple datasets, each for one fiscal year. The datasets can be found here [NYC OpenData](https://opendata.cityofnewyork.us/).
+The data consists of parking violations issued in New York City.
 
-The parking violations for fiscal year 2024 can be found here [Dataset for fiscal year 2024](https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2024/pvqr-7yc4/about_data).
+The data is separated across multiple datasets, each for one fiscal year. The datasets can be found here [NYC OpenData](https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=DOF+Parking+Violations+Issued&q=&sortBy=alpha&utf8=%E2%9C%93).
 
-## Possible Questions
+## Analysis
+
+### Possible Questions
 
 - In which season are parking violations most likely?
 - On which street are the most violations recorded?
 - Which body type / make of vehicle is most likely to be fined?
 
-## Definite Questions
+### Definite Questions
 
 1. Whats the most amount that was paid in violations and by which Plate ID?
 2. At what hour of the day is it most likely to get a ticket?
