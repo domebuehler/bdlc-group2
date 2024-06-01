@@ -7,6 +7,7 @@
 - [Prototyping / Preprocessing](#prototyping--preprocessing)
 - [Dataflow](#dataflow)
 - [Analysis](#analysis)
+- [Learnings](#learnings)
 
 ## Abstract
 
@@ -56,9 +57,7 @@ Total resources:
 
 ## Dataset
 
-The data consists of parking violations issued in New York City.
-
-The data is separated across multiple datasets, each for one fiscal year. The datasets can be found here [NYC OpenData](https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=DOF+Parking+Violations+Issued&q=&sortBy=alpha&utf8=%E2%9C%93).
+See [Data](../src/1_Data/Prepare_Data)
 
 ## Prototyping / Preprocessing
 
