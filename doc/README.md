@@ -1,4 +1,4 @@
-# Group 2 - Analyse parking violations in NYC
+# Group 2 - Analyze parking violations in NYC
 
 ## Table of Contents
 - [Abstract](#abstract)
@@ -10,7 +10,13 @@
 
 ## Abstract
 
-TBD
+The "Analyze Parking Violations in NYC" project aims to leverage big data techniques, particularly clustering, to gain insights into parking violations within New York City. Utilizing a comprehensive dataset of parking violations, the project involves analyzing the distribution and frequency of violations across the city.
+
+Our methodology encompasses data preparation, preprocessing, and analytical phases. The data is initially prepared and stored using HDFS and processed using Spark with PySpark in standalone mode. JupyterLab is employed for coding and executing the analysis, ensuring an interactive and efficient workflow. The project infrastructure includes a cluster setup with one master and four worker nodes, totaling 16 Spark Executors, 64 Cores, and 60 GB RAM, which ensures robust and scalable data processing capabilities.
+
+In the preprocessing stage, raw CSV data is converted into Parquet format to optimize storage and query performance. Analytical queries are then performed to extract valuable insights from the data.
+
+This project highlights the effectiveness of big data technologies in handling and analyzing large datasets to provide actionable insights.
 
 ## Cluster
 
