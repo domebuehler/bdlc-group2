@@ -44,6 +44,10 @@ Total resources:
 - 64 Cores
 - 60 GB RAM
 
+### Setup Testing
+
+See [Testing](../src/0_Cluster_Testing/Testing.ipynb)
+
 ### Webservices
 
 [HDFS](http://bdlc-01.labservices.ch:9870/dfshealth.html#tab-overview)
