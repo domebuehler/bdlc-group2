@@ -4,7 +4,7 @@
 - [Abstract](#abstract)
 - [Cluster](#cluster)
 - [Dataset](#dataset)
-- [Prototyping - Preprocessing - Dataflow](#prototyping--preprocessing--dataflow)
+- [Prototyping - Preprocessing - Dataflow](#prototyping---preprocessing---dataflow)
 - [Analysis](#analysis)
 - [Learnings](#learnings)
 
@@ -60,7 +60,7 @@ See [Data](../src/1_Data/Prepare_Data.ipynb)
 
 ## Prototyping - Preprocessing - Dataflow 
 
-See [Preprocessing](../src/2_Preprocessing/CSV%20to%20Parquet.ipynb)
+See [Prototyping - Preprocessing - Dataflow](../src/2_Preprocessing/CSV%20to%20Parquet.ipynb)
 
 ## Analysis
 
