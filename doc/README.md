@@ -57,7 +57,7 @@ Total resources:
 
 ## Dataset
 
-See [Data](../src/1_Data/Prepare_Data)
+See [Data](../src/1_Data/Prepare_Data.ipynb)
 
 ## Prototyping / Preprocessing
 
