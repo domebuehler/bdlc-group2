@@ -1,6 +1,16 @@
-# Group 2 - Analysis parking violations in NYC
+# Group 2 - Analyse parking violations in NYC
 
-This README provides a short overview of the project work for group 2. All code and other documentation can be found directly in the Jupyter Notebooks.
+## Table of Contents
+- [Abstract](#abstract)
+- [Cluster](#cluster)
+- [Dataset](#dataset)
+- [Prototyping / Preprocessing](#prototyping--preprocessing)
+- [Dataflow](#dataflow)
+- [Analysis](#analysis)
+
+## Abstract
+
+TBD
 
 ## Cluster
 
@@ -49,3 +59,19 @@ Total resources:
 The data consists of parking violations issued in New York City.
 
 The data is separated across multiple datasets, each for one fiscal year. The datasets can be found here [NYC OpenData](https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=DOF+Parking+Violations+Issued&q=&sortBy=alpha&utf8=%E2%9C%93).
+
+## Prototyping / Preprocessing
+
+See [Preprocessing](../src/2_Preprocessing/CSV%20to%20Parquet.ipynb)
+
+## Dataflow
+
+TBD
+
+## Analysis
+
+See [Analysis](../src/3_Analysis/Queries.ipynb)
+
+## Learnings
+
+TBD
