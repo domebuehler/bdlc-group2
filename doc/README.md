@@ -77,5 +77,14 @@ See [Prototyping - Preprocessing - Dataflow](../src/2_Preprocessing/CSV%20to%20P
 See [Analysis](../src/3_Analysis/Queries.ipynb)
 
 ## Learnings
+Eine grosse Herausforderung im Projekt war das Preprocessing:
+Die Daten konnten grösstenteils Problemlos in unsere gewünschte Struktur gebracht werden.
+Mit Hilfe von pyspark.sql.types verlief das meiste Problemlos.
+Die Probleme traten auf wo wir die Zeit-Spalte serializierten.
+Die Daten waren nicht immer im korrekten Format und wir mussten RegEx verwenden um sie 
+in unsere Struktur zu casten. Für das extrahieren der Metadaten haben wir pandas verwendet,
+da pyspark diese funktionalität nicht direkt verfügt.
 
-TBD
+Das grösste Learning war die Partitionierung des finalen RDD bevor es ins HDFS geschriben wurde:
+Die Auswahl der Anzahl von Partitionen war entscheidend um unsere Abfragen später zu optimisieren.
+Wir haben diese auswahl in unserem Jupyter-File begründed und dokumentiert.
