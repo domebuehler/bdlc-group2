@@ -79,7 +79,7 @@ See [Analysis](../src/3_Analysis/Queries.ipynb)
 ## Learnings
 Preprocessing was the biggest challenge of the project. For the most part, we were able to get the data into the structure we wanted without any problems.
 With the help of `pyspark.sql.types`, most things went smoothly. The problems arose when we serialized the time column.
-The data was not always in the correct format and we had to use regex to cast it into our structure.
+The data was not always in the correct format, and we had to use regex to cast it into our structure.
 We used pandas to extract the metadata, since pyspark does not have this functionality built-in.
 
 The biggest learning was partitioning the final RDD before writing it to HDFS.
