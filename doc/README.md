@@ -1,4 +1,11 @@
-# Group 2 - Analyze parking violations in NYC
+# BDLC FS24 - Group 2 - Analyze parking violations in NYC
+
+## Team members
+- Leander Duft
+- Robin Matter
+- Ilija Milovanovic
+- Dominik Bühler
+- Denis Huelin
 
 ## Table of Contents
 - [Abstract](#abstract)
