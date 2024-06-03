@@ -83,6 +83,6 @@ The data was not always in the correct format, and we had to use regex to cast i
 We used pandas to extract the metadata, since pyspark does not have this functionality built-in.
 
 The biggest learning was partitioning the final RDD before writing it to HDFS.
-Choosing the number of partitions was critical for optimizing our queries. We documented this choice [here](../src/2_Preprocessing/CSV%20to%20Parquet.ipynb).
+Choosing the number of partitions was critical for optimizing our queries. We documented this choice [here](../src/2_Preprocessing/CSV%20to%20Parquet.ipynb) in the section `Write Parquet to HDFS`.
 
 In addition to this one tricky problem, we had to overcome smaller challenges along the way and were able to learn a lot from them. Practicing what we learned in the lectures certainly helped all of us to understand and apply the material better.
