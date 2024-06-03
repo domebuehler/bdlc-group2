@@ -66,7 +66,7 @@ See [Testing](../src/0_Cluster_Testing/Testing.ipynb)
 
 ## Dataset
 
-See [Data](../src/1_Data/Prepare_Data.ipynb)
+See [Dataset](../src/1_Data/Prepare_Data.ipynb)
 
 ## Prototyping - Preprocessing - Dataflow 
 
@@ -77,15 +77,12 @@ See [Prototyping - Preprocessing - Dataflow](../src/2_Preprocessing/CSV%20to%20P
 See [Analysis](../src/3_Analysis/Queries.ipynb)
 
 ## Learnings
-Preprocessing was the biggest challenge of the project:
-For the most part, we were able to get the data into the structure we wanted without any problems.
-With the help of pyspark.sql.types, most things went smoothly.
-The problems arose when we serialized the time column.
-The data was not always in the correct format and we had to use regex to cast it into our structure. We used pandas to extract the metadata,
-since pyspark does not have this functionality built-in.
+Preprocessing was the biggest challenge of the project. For the most part, we were able to get the data into the structure we wanted without any problems.
+With the help of `pyspark.sql.types`, most things went smoothly. The problems arose when we serialized the time column.
+The data was not always in the correct format and we had to use regex to cast it into our structure.
+We used pandas to extract the metadata, since pyspark does not have this functionality built-in.
 
-The biggest learning was partitioning the final RDD before writing it to HDFS:
-Choosing the number of partitions was critical for optimizing our queries.
-We documented this choice in our Jupyter file.
+The biggest learning was partitioning the final RDD before writing it to HDFS.
+Choosing the number of partitions was critical for optimizing our queries. We documented this choice [here](../src/2_Preprocessing/CSV%20to%20Parquet.ipynb).
 
 In addition to this one tricky problem, we had to overcome smaller challenges along the way and were able to learn a lot from them. Practicing what we learned in the lectures certainly helped all of us to understand and apply the material better.
